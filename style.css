@@ -1,0 +1,130 @@
+/* global style */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: 0 5%;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* navigation */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    padding: 63px 20px 0px 20px;
+}
+.nav-link:hover{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+.nav-subscribe{
+    padding: 50px 20px 0px 20px;
+    font-weight: bold;
+    color:#0065fc;
+}
+/* formulaire*/
+.search h1{
+    font-size: 15px;
+    padding-bottom: 5px;
+
+}
+.search p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+}
+.location i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 20px 0px 0px 20px;
+}
+.location input{
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    padding-left: 15px;
+    width: 200px;
+}
+.location button{
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* filters */
+.filters{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.filters h2{
+    font-size: 18px;
+
+}
+.filters button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+.filters button i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+    background-color: #deebff;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+.filters button span{
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
