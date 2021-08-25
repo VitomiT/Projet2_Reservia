@@ -189,3 +189,68 @@ flex-basis: 32%;
 background-color: #f2f2f2;
 border-radius: 20px;
 }
+/* hébergements à marseille */
+
+.hebergement-a-marseille h2 {
+font-size: 20px;
+padding: 40px 0px 30px 40px;
+}
+
+.hebergement-a-marseille-cartes {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
+grid-gap: 30px;
+width: 92%;
+margin: 0 auto;
+}
+
+.hebergement-a-marseille-carte-item {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+background-color: white;
+box-shadow: 0px 0px 5px #b1b1b1;
+border-radius: 1.5rem;
+padding: 5px;
+}
+
+.hebergement-a-marseille-carte-item img {
+height: 110px;
+object-fit: cover;
+border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.hebergement-a-marseille-contenu {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+min-height: 90px;
+padding: 10px 0 0 15px;
+}
+
+.affiche-plus {
+margin: 60px 0px 45px 35px;
+border: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Les plus populaires */
+
+.les-plus-populaires-header {
+/*on fait du flex, on met en ligne ,on space-between*/
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+padding: 40px 40px 10px 40px;
+}
+
+.les-plus-populaires-header h2 {
+font-size: 20px;
+}
+
+.les-plus-populaires-header i {
+font-size: 20px;
+}
