@@ -172,85 +172,224 @@ nav ul {
 .info p {
     padding-left: 20px;
 }
+
 /* main */
 
-.tous-les-hotels{
+.tous-les-hotels {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.hebergement-a-marseille{
+
+.hebergement-a-marseille {
     flex-basis: 65%;
     background-color: #f2f2f2;
     border-radius: 20px;
 }
-.les-plus-populaires{
-flex-basis: 32%;
-background-color: #f2f2f2;
-border-radius: 20px;
+
+.les-plus-populaires {
+    flex-basis: 32%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
 }
+
 /* hébergements à marseille */
 
 .hebergement-a-marseille h2 {
-font-size: 20px;
-padding: 40px 0px 30px 40px;
+    font-size: 20px;
+    padding: 40px 0px 30px 40px;
 }
 
 .hebergement-a-marseille-cartes {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: auto;
-grid-gap: 30px;
-width: 92%;
-margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    width: 92%;
+    margin: 0 auto;
 }
 
 .hebergement-a-marseille-carte-item {
-display: flex;
-flex-direction: column;
-min-height: 100%;
-background-color: white;
-box-shadow: 0px 0px 5px #b1b1b1;
-border-radius: 1.5rem;
-padding: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 5px #b1b1b1;
+    border-radius: 1.5rem;
+    padding: 5px;
 }
 
 .hebergement-a-marseille-carte-item img {
-height: 110px;
-object-fit: cover;
-border-radius: 1.5rem 1.5rem 0 0;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .hebergement-a-marseille-contenu {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-min-height: 90px;
-padding: 10px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 90px;
+    padding: 10px 0 0 15px;
 }
 
 .affiche-plus {
-margin: 60px 0px 45px 35px;
-border: none;
-font-size: 20px;
-font-weight: bold;
+    margin: 60px 0px 45px 35px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Les plus populaires */
 
 .les-plus-populaires-header {
-/*on fait du flex, on met en ligne ,on space-between*/
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
-padding: 40px 40px 10px 40px;
+    /*on fait du flex, on met en ligne ,on space-between*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px 40px 10px 40px;
 }
 
 .les-plus-populaires-header h2 {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .les-plus-populaires-header i {
-font-size: 20px;
+    font-size: 20px;
+}
+
+.les-plus-populaires-cartes {
+    /* display grid ; grid-template-columns: ; grid-template-rows: ; grid-gap: ;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* il y a autant de cartes que de ligne*/
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+    /* cela va nous servir à centrer les cartes au milieu sans valeur en dure*/
+    padding-top: 20px;
+}
+
+.les-plus-populaires-carte-item {
+    /* display flex, on met en ligne box-shadow background-color ; borderradius */
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 10px #a1a1a1;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    background-color: white;
+    padding: 5px;
+}
+
+.les-plus-populaires-carte-item img {
+    height: 9rem;
+    max-width: 35%;
+    min-width: 35%;
+    object-fit: cover;
+    /* evite que les images ne s'écrase */
+    border-radius: 1.5rem 0px 0px 1.5rem;
+}
+
+.les-plus-populaires-carte-item-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.les-plus-populaires-carte-contenu {
+    /* flex; column; space-between*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 15px 15px 20px;
+}
+
+/* Stars */
+
+.fa-star {
+    color: #0065fc;
+}
+
+.star-grey {
+    color: #b1b1b1;
+}
+
+/* Activités */
+
+.title-activities {
+    margin-top: 60px;
+}
+
+.marseille-activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marseille-activities .vp {
+    text-decoration-line: none;
+    color: black;
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.marseille-activities h4 {
+    padding: 10px;
+}
+
+.vieux-port img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.pomegues-frioul {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pomegues-frioul .po {
+    width: 100%;
+    height: 55%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.pomegues {
+    height: 100%;
+}
+
+.pomegues-frioul .fri {
+    width: 100%;
+    height: 35%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.frioul {
+    height: 100%;
+}
+
+.pomegues img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.frioul img {
+    width: 100%;
+    height: 102px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
