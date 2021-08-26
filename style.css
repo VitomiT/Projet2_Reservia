@@ -393,3 +393,73 @@ nav ul {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
+
+.cal {
+    width: 22%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.calanques img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.notredame-longchamp {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notredame-longchamp .nd {
+    width: 100%;
+    height: 45%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.notredame {
+    height: 100%;
+}
+
+.notredame-longchamp .lo {
+    width: 100%;
+    height: 45%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
+    border: 0px solid #F2F2F2;
+}
+
+.longchamp {
+    height: 100%;
+}
+
+.notredame img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.longchamp img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.title-activities h2 {
+    padding-bottom: 17px;
+    font-size: 21px;
+}
