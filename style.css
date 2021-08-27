@@ -323,6 +323,7 @@ nav ul {
 .marseille-activities {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .marseille-activities .vp {
@@ -462,4 +463,34 @@ nav ul {
 .title-activities h2 {
     padding-bottom: 17px;
     font-size: 21px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    width: 100%;
+    height: 250px;
+}
+.footer h3{
+    padding-bottom: 20px
+}
+
+.a-propros li {
+    display: flex;
+    margin-top: 15px;
+}
+
+.nos-hebergement li{
+    display: flex;
+    margin-top: 15px;
+}
+
+.assistance li{
+    display: flex;
+    margin-top: 15px;
 }
