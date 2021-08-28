@@ -651,7 +651,6 @@ nav ul {
         display: flex;
         flex-flow: column nowrap;
     }
-}
     .hebergement-a-marseille {
         background-color: unset;
     }
@@ -662,3 +661,4 @@ nav ul {
     .hebergement-a-marseille h2 {
         font-size: 1.5rem;
     }
+}
