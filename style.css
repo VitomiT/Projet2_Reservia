@@ -596,4 +596,69 @@ nav ul {
     .filters button {
         margin-bottom: 1rem;
     }
+    /* Populaires */
+    .les-plus-populaires-carte-contenu {
+        padding: 0.5rem 1rem 0.5rem 1.6rem;
+    }
+    .les-plus-populaires {
+        order: -1;
+    }
+    .marseille-activities {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .title-activities {
+        margin: 0 0 0 18px;
+    }
+    .marseille-activities .vp {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .pomegues-frioul {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .po {
+        margin-bottom: 25px;
+    }
+    .cal {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .notredame-longchamp {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .nd {
+        margin-bottom: 25px;
+    }
+    .marseille-activities img {
+        height: 35vw;
+    }
+    .marseille-activities h4 {
+        padding-left: 10px;
+    }
+    /* Hébergement */
+    .tous-les-hotels {
+        grid-template-columns: unset;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .hebergement-a-marseille-cartes {
+        display: flex;
+        flex-flow: column nowrap;
+    }
 }
+    .hebergement-a-marseille {
+        background-color: unset;
+    }
+    .hebergement-a-marseille, .les-plus-populaires {
+        border-radius: unset;
+        padding: 2rem 1rem;
+    }
+    .hebergement-a-marseille h2 {
+        font-size: 1.5rem;
+    }
