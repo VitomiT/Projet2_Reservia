@@ -507,13 +507,13 @@ nav ul {
         margin: unset;
     }
     /* footer responsive */
-    .footer{
+    .footer {
         flex-direction: column;
         padding: 0% 4% 12% 4%;
         margin-top: 50px;
         height: auto;
     }
-    .footer div{
+    .footer div {
         padding-bottom: 15px;
     }
     .footer h3 {
@@ -555,5 +555,45 @@ nav ul {
     }
     .nav-link {
         padding: 1rem 3.14rem;
+    }
+    .search-icon i {
+        color: white;
+        background-color: #0065FC;
+        height: 4rem;
+        width: 4rem;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 1.5rem;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .location button {
+        display: none;
+    }
+    .search-icon {
+        display: flex;
+        border-top: 2px solid #f2f2f2;
+        border-top-right-radius: 1.5rem;
+        border-bottom: 2px solid #f2f2f2;
+        border-bottom-right-radius: 1.5rem;
+    }
+    .search h1 {
+        font-size: 1.4rem;
+        padding-bottom: 0.8rem;
+    }
+    .search p {
+        padding-bottom: 1.5rem;
+    }
+    .info {
+        margin: 0 0 2rem 1rem;
+    }
+    .filters h2 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .filters button {
+        margin-bottom: 1rem;
     }
 }
