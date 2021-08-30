@@ -110,8 +110,9 @@ nav ul {
     padding-left: 20px;
     padding-right: 20px;
 }
-.search-icon{
-display: none;
+
+.search-icon {
+    display: none;
 }
 
 /* filters */
@@ -674,7 +675,7 @@ display: none;
     .search {
         margin: 31px;
     }
-    .search-icon{
+    .search-icon {
         display: none;
     }
     nav img {
@@ -725,5 +726,96 @@ display: none;
     }
     .filter button {
         margin-right: 15%;
+    }
+    /* Hébergement */
+    .tous-les-hotels {
+        grid-template-columns: unset;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        gap: unset;
+    }
+    .hebergement-a-marseille {
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+    .les-plus-populaires {
+        order: -1;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .les-plus-populaires-cartes {
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 2rem;
+        margin-bottom: 40px;
+    }
+    .les-plus-populaires-carte-item {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 10px #a1a1a1;
+        border-radius: 1.5rem;
+        padding: 0.2rem;
+        background-color: white;
+    }
+    .les-plus-populaires-carte-item img {
+        height: 10rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .les-plus-populaires-carte-contenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 90px;
+        padding: 0 0 0 15px;
+        height: 7rem;
+    }
+    .les-plus-populaires-carte-item {
+        display: unset;
+        align-items: unset;
+        height: unset;
+        overflow: unset;
+    }
+    .populaire-white-place {
+        display: unset;
+    }
+    #activities {
+        width: 100%;
+    }
+    .title-activities h2 {
+        padding-bottom: 17px;
+        padding-left: 40px;
+        font-size: 21px;
+    }
+    .marseille-activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .marseille-activities img {
+        height: 35vw;
+    }
+    .marseille-activities .vp {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .pomegues-frioul {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .po {
+        margin-bottom: 20px;
+    }
+    .cal {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .notredame-longchamp {
+        width: 95%;
+    }
+    .nd {
+        margin-bottom: 20px;
     }
 }
